@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes - Rafaela & Leandro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="names">Rafaela & Leandro</div>
+        <h1>Lista de Presentes</h1>
+        <p class="subtitle">Com muito carinho, preparamos uma seleção de itens para o nosso novo lar. Agradecemos por
+            fazer parte deste momento tão especial!</p>
+    </header>
+
+    <div class="container">
+        <div class="gift-grid" id="gift-grid">
+            <!-- Items will be injected here by JS -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Feito por Lucas Couto</p>
+    </footer>
+
+    <div id="pix-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2>Presente em Dinheiro (PIX)</h2>
+            <p style="margin-top: 10px; color: var(--text-muted);">Clique no botão abaixo para copiar a chave PIX e
+                realizar o seu presente.</p>
+            <div class="pix-key-container" id="pix-key">16988695554</div>
+            <button class="btn-buy" id="btn-copy">Copiar Chave PIX</button>
+            <div class="copy-success" id="copy-success">✅ Chave copiada com sucesso!</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
