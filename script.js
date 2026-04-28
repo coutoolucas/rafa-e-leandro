@@ -86,46 +86,6 @@ const giftItems = [
         "imagem": "https://a-static.mlcdn.com.br/800x600/purificador-de-agua-natural-karina/karinabebebourosoficial/aquacinza/b74511ff644eaf47179cd19a605c3d01.jpeg"
     },
     {
-        "nome": "Batedeira Planetária Mondial Branco e Inox 700W Premium 12 Velocidades",
-        "url": "https://www.magazineluiza.com.br/batedeira-planetaria-mondial-branco-e-inox-700w-premium-12-velocidades/p/021259800/ep/btdc/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/batedeira-planetaria-mondial-branco-e-inox-700w-premium-12-velocidades/magazineluiza/021259800/8051287c8d9c4e0b8e6a1a1f0a3b3a3b.jpg"
-    },
-    {
-        "nome": "Liquidificador Mondial Turbo L-1200 BI com Filtro 12 Velocidades 1200W",
-        "url": "https://www.magazineluiza.com.br/liquidificador-mondial-turbo-l-1200-bi-com-filtro-12-velocidades-1200w-inox-preto/p/230303600/ep/liqu/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/liquidificador-mondial-turbo-l-1200-bi-com-filtro-12-velocidades-1200w-inox-preto/magazineluiza/230303600/230303600_01.jpg"
-    },
-    {
-        "nome": "Aspirador de Pó Vertical Philco Filtro Ciclone 1450W PAS1600P Preto",
-        "url": "https://www.magazineluiza.com.br/aspirador-de-po-vertical-philco-filtro-ciclone-1450w-pas1600p-preto/p/237334000/ep/elap/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/aspirador-de-po-vertical-philco-filtro-ciclone-1450w-pas1600p-preto/magazineluiza/237334000/237334000_01.jpg"
-    },
-    {
-        "nome": "Alexa Echo Dot 5ª Geração Smart Speaker - Branca",
-        "url": "https://www.magazineluiza.com.br/echo-dot-5a-geracao-smart-speaker-com-produto-alexa-branca-amazon-amazon/p/ddeje143e5/ci/sscs/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/echo-dot-5a-geracao-smart-speaker-com-alexa-branca-amazon/magazineluiza/236681000/236681000_01.jpg"
-    },
-    {
-        "nome": "Aparelho de Jantar 20 Peças Tramontina Redondo Porcelana Mare",
-        "url": "https://www.magazineluiza.com.br/aparelho-de-jantar-20-pecas-tramontina-redondo-porcelana-branco-e-marrom-mare/p/238371200/ud/apja/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/aparelho-de-jantar-20-pecas-tramontina-redondo-porcelana-branco-e-marrom-mare/magazineluiza/238371200/238371200_01.jpg"
-    },
-    {
-        "nome": "Jogo De Toalha De Banho 5 Peças Linha Premium Dianneli",
-        "url": "https://www.magazineluiza.com.br/jogo-de-toalha-de-banho-5-pecas-linha-premium-dianneli/p/ff9g1k3f8b/cm/joto/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/jogo-de-toalha-de-banho-5-pecas-linha-premium-dianneli/magazineluiza/ff9g1k3f8b/ff9g1k3f8b_01.jpg"
-    },
-    {
-        "nome": "Micro-ondas Midea 20L Branco e Preto 127V/220V MRAS22",
-        "url": "https://www.magazineluiza.com.br/micro-ondas-midea-20l-branco-e-preto-220v-mras22/p/kj0e05hbkj/ed/mond/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/micro-ondas-midea-20l-branco-e-preto-220v-mras22/magazineluiza/kj0e05hbkj/kj0e05hbkj_01.jpg"
-    },
-    {
-        "nome": "Ferro de Passar Roupa a Vapor e a Seco Arno Ecogliss FEC1 Verde",
-        "url": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-vapor-e-a-seco-arno-ecogliss-fec1-verde/p/021952500/ep/ferr/",
-        "imagem": "https://a-static.mlcdn.com.br/800x600/ferro-de-passar-roupa-a-vapor-e-a-seco-arno-ecogliss-fec1-verde/magazineluiza/021952500/021952500_01.jpg"
-    },
-    {
         "nome": "Mixer Power Inox 3 Em 1 Elgin 600w Batedor Processador 127v",
         "url": "https://www.magazineluiza.com.br/mixer-power-inox-3-em-1-elgin-600w-batedor-processador-127v/p/cjc8jhfef2/ep/mixr/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
         "imagem": "https://d2u2qhufg0q9tn.cloudfront.net/assets/arquivos/imgCard_b928cafc-acfa-4ec6-8757-f9b2bed673f9_Mixer%20e%20acess%C3%B3rios-400x400_638597667067132613.jpg"
