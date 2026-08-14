@@ -21,11 +21,6 @@ const giftItems = [
         isPix: true,
     },
     {
-        nome: "Secadora de Roupas de Parede Fischer 8kg",
-        url: "https://m.magazineluiza.com.br/secadora-de-roupas-de-parede-fischer-8kg-super-ciclo/p/011691300/ed/selt/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
-        imagem: "https://a-static.mlcdn.com.br/1500x1500/secadora-de-roupas-de-parede-fischer-8kg-super-ciclo/magazineluiza/011691300/cbca0dc5d1738ccb992207a85d3a733f.jpg",
-    },
-    {
         nome: "Depurador E Exaustor De Ar Suggar Slim 60cm 3 Velocidades Preto",
         url: "https://m.magazineluiza.com.br/depurador-e-exaustor-de-ar-suggar-slim-60cm-3-velocidades-preto/p/adjjeh7dd4/ed/depu/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
         imagem: "https://a-static.mlcdn.com.br/800x600/depurador-e-exaustor-de-ar-suggar-slim-60cm-3-velocidades-preto/techshop/depsug00030/1ed2c646bbf7bc06d2028b2038657ae2.jpg",
