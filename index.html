@@ -4,47 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Lista de Presentes - Rafaela & Leandro</title>
+    <meta name="description"
+        content="Com muito carinho, Rafaela e Leandro prepararam uma seleção de itens para o novo lar. Escolha um presente ou contribua via PIX.">
+    <meta name="theme-color" content="#d9008d">
+
+    <!-- Preview ao compartilhar o link (WhatsApp, Instagram, Facebook).
+         ATENÇÃO: og:image e og:url precisam ser URLs absolutas. Troque o
+         domínio abaixo pelo endereço real do site na Vercel. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Rafaela & Leandro">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Lista de Presentes - Rafaela & Leandro">
+    <meta property="og:description"
+        content="Com muito carinho, preparamos uma seleção de itens para o nosso lar. Agradecemos por fazer parte deste momento tão especial!">
+    <meta property="og:url" content="https://rafa-e-leandro.vercel.app/">
+    <meta property="og:image" content="https://rafa-e-leandro.vercel.app/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Rafaela & Leandro - Lista de Presentes">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%9D%3C/text%3E%3C/svg%3E">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Marca que o JS está ativo. A animação de entrada só esconde os cards
+         quando esta classe existe, senão uma falha de JS deixaria a página
+         inteira invisível. -->
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 
 <body>
 
     <header>
-        <div class="names">Rafaela & Leandro</div>
+        <div class="names">Rafaela &amp; Leandro</div>
         <h1>Lista de Presentes</h1>
         <p class="subtitle">Com muito carinho, preparamos uma seleção de itens para o nosso lar. Agradecemos por
             fazer parte deste momento tão especial!</p>
     </header>
 
-    <div class="container">
+    <main class="container">
         <div class="gift-grid" id="gift-grid">
-            <!-- Items will be injected here by JS -->
+            <!-- Cards inseridos via JS -->
         </div>
-    </div>
+        <noscript>
+            <p class="noscript-warning">Ative o JavaScript para ver a lista de presentes.</p>
+        </noscript>
+    </main>
 
     <footer>
         <p>&copy; 2026 - Feito por Lucas Couto</p>
     </footer>
 
-    <div id="pix-modal" class="modal">
+    <div id="pix-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="pix-modal-title"
+        aria-hidden="true">
         <div class="modal-content">
-            <span class="close-modal" id="close-modal">&times;</span>
-            <h2>Presente em Dinheiro (PIX)</h2>
-            <p style="margin-top: 10px; color: var(--text-muted);">Clique no botão abaixo para copiar a chave PIX e
-                enviar o seu presente.</p>
-            <div class="pix-key-container" id="pix-key">16988695554</div>
-            <button class="btn-buy" id="btn-copy">Copiar Chave PIX</button>
-            <div class="copy-success" id="copy-success">✅ Chave copiada com sucesso!</div>
+            <button type="button" class="close-modal" id="close-modal" aria-label="Fechar">&times;</button>
+
+            <h2 id="pix-modal-title">Presente em Dinheiro (PIX)</h2>
+
+            <div class="pix-qr" id="pix-qr" hidden>
+                <!-- QR Code inserido via JS -->
+            </div>
+            <p class="pix-hint">Aponte a câmera do seu banco para o QR Code, ou use o código abaixo.</p>
+
+            <div class="pix-key-container" id="pix-key">
+                <!-- Payload "copia e cola" inserido via JS -->
+            </div>
+
+            <button class="btn-buy" type="button" id="btn-copy">Copiar código PIX</button>
+            <p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p>
+
+            <p class="pix-manual">Prefere digitar? A chave é <strong id="pix-key-plain"></strong></p>
         </div>
     </div>
 
-    <script type="module" src="/script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 
 </html>
