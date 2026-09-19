@@ -38,7 +38,7 @@ const giftItems = [
     {
         nome: "Forma para Bolo de Alumínio Antiaderente Redonda Tramontina Brasil 24cm 2L",
         url: "https://m.magazineluiza.com.br/forma-para-bolo-de-aluminio-antiaderente-redonda-tramontina-brasil-20074-024/p/225992600/ud/assa/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=magazineluiza",
-        imagem: "https://prd-assets-ce.tramontina.com/20074_024_39b33c2a6b.jpg",
+        imagem: "/forma-bolo-tramontina.png",
     },
     {
         nome: "Lava-Louças Brastemp 8 Serviços Branca BLF08BB",
