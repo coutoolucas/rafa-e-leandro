@@ -36,6 +36,11 @@ const giftItems = [
         imagem: "https://a-static.mlcdn.com.br/420x420/jogo-de-panelas-com-7-pecas-mimo-style-sartin-cook-champanhe/inpowermg/nac015956/8b18e9b4ba293adbdef19096a6f7514b.jpeg",
     },
     {
+        nome: "Forma para Bolo de Alumínio Antiaderente Redonda Tramontina Brasil 24cm 2L",
+        url: "https://m.magazineluiza.com.br/forma-para-bolo-de-aluminio-antiaderente-redonda-tramontina-brasil-20074-024/p/225992600/ud/assa/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=magazineluiza",
+        imagem: "https://prd-assets-ce.tramontina.com/20074_024_39b33c2a6b.jpg",
+    },
+    {
         nome: "Lava-Louças Brastemp 8 Serviços Branca BLF08BB",
         url: "https://m.magazineluiza.com.br/lava-loucas-brastemp-8-servicos-branca-blf08bb/p/af04hfbe27/ed/l08s/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
         imagem: "https://a-static.mlcdn.com.br/800x600/lava-loucas-8-servicos-brastemp-branca-blf08bb/whirlpool/326031199/b236ce3d97ab80b272f42430c052081d.jpg",
