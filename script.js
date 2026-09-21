@@ -41,6 +41,20 @@ const giftItems = [
         imagem: "/forma-bolo-tramontina.png",
     },
     {
+        nome: "Liquidificador Mondial Turbo Power L-99-FB Preto 550W com Filtro",
+        url: "https://m.magazineluiza.com.br/liquidificador-mondial-turbo-power-l-99-fb-preto-com-filtro-3-velocidades-550w/p/021756700/ep/liqu/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=magazineluiza",
+        imagem: "/liquidificador-mondial.png",
+    },
+    {
+        nome: "Kit de 12 Utensílios de Silicone com Cabo de Madeira - Black Watch",
+        url: "https://m.magazineluiza.com.br/jogo-de-colheres-modernas-c-12-pecas-black-watch/p/jbd5k89d48/ud/crmd/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=blackwatchltda",
+    },
+    {
+        nome: "Conjunto Jarra 1,5L com 6 Taças 240ml Cristal Lavanda - Lyor",
+        url: "https://m.magazineluiza.com.br/conjunto-jarra-15l-com-6-tacas-240ml-vidro-cristal-lavanda-lyor/p/bek18h0c2g/ud/udas/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=lojaemporiodoreal",
+        imagem: "/jarra-tacas-lavanda.jpg",
+    },
+    {
         nome: "Lava-Louças Brastemp 8 Serviços Branca BLF08BB",
         url: "https://m.magazineluiza.com.br/lava-loucas-brastemp-8-servicos-branca-blf08bb/p/af04hfbe27/ed/l08s/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
         imagem: "https://a-static.mlcdn.com.br/800x600/lava-loucas-8-servicos-brastemp-branca-blf08bb/whirlpool/326031199/b236ce3d97ab80b272f42430c052081d.jpg",
@@ -180,7 +194,7 @@ const BLANK_IMAGE =
 
 function createImageCard(item) {
     const image = document.createElement("img");
-    image.src = item.imagem;
+    image.src = item.imagem || BLANK_IMAGE;
     image.alt = item.nome;
     image.loading = "lazy";
     image.decoding = "async";
@@ -195,6 +209,7 @@ function createImageCard(item) {
 
     const imageContainer = document.createElement("div");
     imageContainer.className = "image-container";
+    if (!item.imagem) imageContainer.classList.add("image-missing");
     imageContainer.appendChild(image);
 
     const link = document.createElement("a");
