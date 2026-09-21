@@ -48,6 +48,7 @@ const giftItems = [
     {
         nome: "Kit de 12 Utensílios de Silicone com Cabo de Madeira - Black Watch",
         url: "https://m.magazineluiza.com.br/jogo-de-colheres-modernas-c-12-pecas-black-watch/p/jbd5k89d48/ud/crmd/?partner_id=64853&utm_source=pdp_desk&utm_medium=share&seller_id=blackwatchltda",
+        imagem: "/kit-utensilios-black-watch.png",
     },
     {
         nome: "Conjunto Jarra 1,5L com 6 Taças 240ml Cristal Lavanda - Lyor",
