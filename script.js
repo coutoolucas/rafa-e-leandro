@@ -110,11 +110,6 @@ const giftItems = [
         url: "https://m.magazineluiza.com.br/filtro-de-agua-natural-cinza-purificador-de-agua-karina-bebedouros/p/ec54df58jj/ep/papd/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
         imagem: "https://a-static.mlcdn.com.br/800x600/purificador-de-agua-natural-karina/karinabebebourosoficial/aquacinza/b74511ff644eaf47179cd19a605c3d01.jpeg",
     },
-    {
-        nome: "Mixer Power Inox 3 Em 1 Elgin 600w Batedor Processador 127v",
-        url: "https://www.magazineluiza.com.br/mixer-power-inox-3-em-1-elgin-600w-batedor-processador-127v/p/cjc8jhfef2/ep/mixr/?partner_id=64853&utm_source=pdp_desk&utm_medium=share",
-        imagem: "https://d2u2qhufg0q9tn.cloudfront.net/assets/arquivos/imgCard_b928cafc-acfa-4ec6-8757-f9b2bed673f9_Mixer%20e%20acess%C3%B3rios-400x400_638597667067132613.jpg",
-    },
 ];
 
 /* =========================================================================
